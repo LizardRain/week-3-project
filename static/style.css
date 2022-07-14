@@ -1,0 +1,38 @@
+img
+{
+    border-color: blue greenyellow orange fuchsia;
+    border-width: 20px 10px;
+    border-style: ridge groove;
+}
+
+.subtitle{
+    font-size: 10px;
+    color: gray;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+#navigation{
+    border: 10px solid green;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#navigation li.current{
+    font-weight: bold;
+}
